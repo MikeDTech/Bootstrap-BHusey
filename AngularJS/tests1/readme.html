@@ -1,0 +1,49 @@
+https://www.youtube.com/user/derekbanas/playlists
+https://www.youtube.com/watch?v=OPxeCiy0RdY&list=PLGLfVvz_LVvRo7634CgU8vyD_NPtODwjE
+
+## Angular JS Tutorial ##
+
+- Built on top of Javascript and JQuery
+- MVC (Model View Controller)
+	> Model = Data Source
+	> View = Rendered Webpage
+	> Controller = Handles communication between them
+
+## AngularJS Jargon ##
+
+Modules
+> Components used in your application
+
+Directives
+> Can extend html elements
+> Allows you to bind data directly to HTML elements
+
+Scope
+> Data Generated (on Web Server, on a Database or client-side (on the webpage)
+
+Expressions
+> Are linked to the Data (or Scope)
+> Dynamically Updates the Page as the data changes
+
+Data Binding
+> Webpage Updates <---> Model Updates (Either updates the other changes)
+
+Services
+> Techniques to Dyanamically get Data, such as AJAX techniques etc.
+-----------------
+
+Note:
+if you call angular js script (from google) at the bottom of the page then you might see
+{{ value }} <-- those brackets briefly when page loads
+You can stop this by
+1. Moving the code to call angularjs (from the google library i.e the <script src="//code.google.com/angular....whatever" to the <head> section
+2. or start document this way (adding ng cloak)
+<!DOCTYPE html>
+<html ng-app="app3" ng-cloak>
+	<head>
+		<style>
+		[ng\:cloak], [ng-cloak], .ng-cloak {
+		display: none;
+		}
+		</style>
+	</head>

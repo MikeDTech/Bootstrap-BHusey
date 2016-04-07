@@ -1,0 +1,210 @@
+/* ==========================================================================
+ Body Styles
+========================================================================== */
+/* ==========================================================================
+ Styles
+========================================================================== */
+@import url("http://fonts.googleapis.com/css?family=Roboto");
+/* --------------------------------------------------------------------------
+ Variables
+-------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------
+ HTML / BODY
+-------------------------------------------------------------------------- */
+html,
+body {
+  position: relative;
+  height: 100%;
+  min-height: 100%;
+  background: rgba(38, 47, 54, 0.87);
+  font: normal 1rem/1.5rem Roboto, sans-serif;
+  color: rgba(0, 0, 0, 0.87);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizelegibility; }
+
+h1, h2, h3, h4, h5 {
+  color: rgba(0, 0, 0, 0.87); }
+
+h6 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.8rem;
+  letter-spacing: 0.1rem;
+  color: rgba(0, 0, 0, 0.7); }
+
+img {
+  max-width: 100%;
+  border: 0; }
+
+.blockquote {
+  font-size: 1.6rem;
+  color: rgba(0, 0, 0, 0.7);
+  border: none;
+  padding: 0; }
+
+.blockquote-footer {
+  margin: 1rem 0 0; }
+
+#stage {
+  background: url("../img/stage.jpg") no-repeat center center;
+  background-size: cover;
+  margin-top: 54px;
+  color: white;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  /*centers it vertically*/ }
+
+#stage-caption {
+  font-size: 1.4rem;
+  font-weight: 300;
+  max-width: 60rem;
+  margin: 0 auto;
+  /*centers it horizontally*/
+  text-align: center; }
+  #stage-caption h1 {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase; }
+
+.feature-content {
+  padding: 8rem 0;
+  overflow: hidden; }
+  .feature-content img {
+    margin-bottom: -8rem; }
+
+.feature-dark {
+  background: rgba(38, 47, 54, 0.87);
+  color: white; }
+  .feature-dark h6 {
+    color: rgba(255, 255, 255, 0.7); }
+  .feature-dark h2 {
+    color: white; }
+
+.feature-alt {
+  background: rgba(0, 0, 0, 0.05); }
+
+#feature-four .feature-content {
+  padding: 0; }
+
+#feature-five img {
+  margin-top: 2rem; }
+
+#main-footer {
+  background: #262F36;
+  color: white;
+  padding: 6rem 0;
+  font-size: 0.8rem; }
+  #main-footer h6 {
+    color: #718FA9; }
+  #main-footer a {
+    color: #6C6F73; }
+
+/* Media Queries */
+@media screen and (min-width: 991px) {
+  .feature-content {
+    /* Vertically centers feature-content div on devices 991px and above*/
+    display: flex;
+    align-items: center; } }
+/*
+	SkyApp Bootstrap Sass Theme
+	These are all files you manually create to override bootstraps files
+*/
+/* BASE - Base styles, variables, mixins, etc */
+/* Mixins */
+/* Font Colors */
+/* Background Colors */
+/* Showcase Area */
+#section-showcase {
+  display: flex;
+  align-items: center;
+  /*centers it vertically*/
+  padding: 1rem 0;
+  position: relative;
+  margin: 0 auto; }
+
+.showcase-content {
+  padding: 2.5rem;
+  display: flex;
+  align-items: center;
+  /*centers it vertically*/
+  position: relative;
+  margin: 0 auto; }
+
+/* Blocks */
+.block, .block-primary, .block-secondary, .block-light, .block-dark {
+  padding: 1.5rem;
+  margin-bottom: 1rem; }
+  .block h3, .block-primary h3, .block-secondary h3, .block-light h3, .block-dark h3 {
+    margin-top: 0;
+    padding-top: 0; }
+  .block iframe, .block-primary iframe, .block-secondary iframe, .block-light iframe, .block-dark iframe {
+    width: 100%; }
+
+.block-primary {
+  background: #00aff0;
+  color: #ffffff; }
+
+.block-secondary {
+  background: #7fba00;
+  color: #ffffff; }
+
+.block-light {
+  background: #e4eef2;
+  color: #666666; }
+
+.block-dark {
+  background: #2b5464;
+  color: #ffffff; }
+
+.block-center {
+  text-align: center !important; }
+
+.block-image img {
+  width: 100%; }
+
+.block-border {
+  border: 1px solid #cccccc; }
+
+.block-primary-head h3 {
+  padding: 15px 5px 15px 10px;
+  background: #00aff0;
+  color: #ffffff;
+  margin: 0;
+  font-size: 18px; }
+.block-primary-head .block-content {
+  border: 1px solid #00aff0;
+  padding: 10px; }
+
+.block-icon h3 {
+  color: rgba(255, 255, 255, 0.87);
+  padding: 0;
+  margin: 0; }
+.block-icon p {
+  color: rgba(255, 255, 255, 0.87);
+  line-height: 1.5rem;
+  padding-bottom: 50px; }
+.block-icon .icon {
+  float: left;
+  width: 20%;
+  margin-top: 10px; }
+.block-icon .icon-content {
+  float: left;
+  width: 80%;
+  color: white; }
+  .block-icon .icon-content h3 {
+    color: rgba(255, 255, 255, 0.87);
+    font-size: 24px; }
+  .block-icon .icon-content h4 {
+    font-size: 16px;
+    font-style: italic;
+    margin-top: 2px;
+    color: white; }
+
+/*# sourceMappingURL=base.css.map */

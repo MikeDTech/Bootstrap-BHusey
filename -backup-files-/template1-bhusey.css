@@ -1,0 +1,41 @@
+html,
+body {
+  height: 100%; }
+
+/* Cover ------------------------------ */
+img {
+  max-width: 100%; }
+
+/* 1 rem = root font size (default is 16px which is = 1 rem*/
+#cover {
+  background: #222 url("img/stars.jpg") center center no-repeat;
+  background-size: cover;
+  color: white;
+  height: 100;
+  text-align: center;
+  display: flex;
+  align-items: center; }
+
+#cover-capition {
+  width: 100%; }
+
+.section-content {
+  padding: 5rem 0;
+  /*5 rem is = to about 80ox since 16 * 5 = 80 */ }
+
+#about {
+  background: url("img/girlincar.jpg") center center no-repeat;
+  background-size: cover; }
+
+.about-text {
+  background: rgba(0, 0, 0, 0.87);
+  color: white;
+  padding: 1.875rem; }
+
+#footer-main {
+  background: #222;
+  color: white;
+  font-size: 0.8rem;
+  padding: 2.5rem 0; }
+
+/*# sourceMappingURL=template1-bhusey.css.map */
